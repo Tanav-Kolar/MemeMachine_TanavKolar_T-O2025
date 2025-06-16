@@ -1,3 +1,9 @@
+# T$O Submission : Team Meme Machine (Pitch Video & Documentation)
+You can find our pitch video, technical document, and related assets here:
+
+[Google Drive Folder](https://drive.google.com/drive/folders/1BTyux_gmHm96KN4uk7VMd985bEg1-Rsb?usp=sharing)
+
+
 # 🧠 Boudhi Chatbot – Government Scheme Finder & Screener
 
 Boudhi is a multilingual voice- and text-enabled chatbot built to help users discover and understand government schemes. It supports natural language queries, voice input, and multilingual response output — designed with accessibility and local relevance in mind.
@@ -191,4 +197,6 @@ streamlit run main.py
 ## Declaration
 
 AI-assistance was used in generating some of the code found in this repository.
+
+
 
