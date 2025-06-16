@@ -187,4 +187,8 @@ streamlit run main.py
 * **Tanav Kolar**
 * **Shreyansh Kumar Nayak**
 
+---
+##Declaration
+
+AI-assistance was used in generating some of the code found in this repository.
 
