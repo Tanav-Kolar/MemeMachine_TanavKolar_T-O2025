@@ -14,7 +14,7 @@ Boudhi is a multilingual voice- and text-enabled chatbot built to help users dis
 - 🗣 **Text-to-Speech (TTS)** for voice responses
 - 🈯 **Multilingual Input/Output Support** (English + Indian languages)
 - 📋 **Screening Logic** for personalized scheme recommendations
-- - **Scraping and GraphDB Collection** Scraped scheme informations from publicly available government data sources to create a Vector Database
+- **Scraping and GraphDB Collection** Scraped scheme informations from publicly available government data sources to create a Vector Database
 
 ---
 
