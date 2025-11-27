@@ -4,37 +4,37 @@ You can find our pitch video, technical document, and related assets here:
 [Google Drive Folder](https://drive.google.com/drive/folders/1BTyux_gmHm96KN4uk7VMd985bEg1-Rsb?usp=sharing)
 
 
-# 🧠 Boudhi Chatbot – Government Scheme Finder & Screener
+# Boudhi Chatbot – Government Scheme Finder & Screener
 
 Boudhi is a multilingual voice- and text-enabled chatbot built to help users discover and understand government schemes. It supports natural language queries, voice input, and multilingual response output — designed with accessibility and local relevance in mind.
 
 ---
 
-## 🔧 Features
+## Features
 
-- 🎤 **Voice Input (Speech-to-Text)** using a custom ASR engine
-- 🧾 **Text Input** with language translation support
-- 🔍 **Query Matching** using Pinecone vector search
-- 🧠 **LLM-Powered Answers** via Groq API
-- 🗣 **Text-to-Speech (TTS)** for voice responses
-- 🈯 **Multilingual Input/Output Support** (English + Indian languages)
-- 📋 **Screening Logic** for personalized scheme recommendations
-- 🕸 **Scheme Scraping & Vector DB** – 1000+ government schemes were scraped and upserted to a Pinecone vector database for semantic search.
+- **Voice Input (Speech-to-Text)** using a custom ASR engine
+- **Text Input** with language translation support
+- **Query Matching** using Pinecone vector search
+- **LLM-Powered Answers** via Groq API
+- **Text-to-Speech (TTS)** for voice responses
+- **Multilingual Input/Output Support** (English + Indian languages)
+- **Screening Logic** for personalized scheme recommendations
+- **Scheme Scraping & Vector DB** – 1000+ government schemes were scraped and upserted to a Pinecone vector database for semantic search.
 
 ---
 
-## 📦 Scraping Process & Dataset Preparation
+## Scraping Process & Dataset Preparation
 
 A dedicated script scrapes data from public portals like [https://www.india.gov.in/](https://www.india.gov.in/) and state scheme directories. For each scheme, we extract:
 
-- ✅ `scheme_name`
-- 📝 `details`
-- 🧾 `eligibility criteria`
-- 💰 `benefits`
-- 📎 `application process`
-- 📄 `documents required`
-- 🔖 `tags/categories`
-- 🔗 `official URL`
+- `scheme_name`
+- `details`
+- `eligibility criteria`
+- `benefits`
+- `application process`
+- `documents required`
+- `tags/categories`
+- `official URL`
 
 ### JSON Structuring
 
@@ -103,7 +103,7 @@ This allows **fuzzy matching** even if the query doesn’t exactly match the sch
 
 ---
 
-## 🗂 File Overview
+## File Overview
 
 | File                    | Purpose                                                               |
 | ----------------------- | --------------------------------------------------------------------- |
@@ -118,7 +118,7 @@ This allows **fuzzy matching** even if the query doesn’t exactly match the sch
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. **Input Capture**
 
@@ -143,7 +143,7 @@ This allows **fuzzy matching** even if the query doesn’t exactly match the sch
 
 ---
 
-## 🛠 Setup Instructions
+## Setup Instructions
 
 1. **Install dependencies**
 
@@ -169,15 +169,15 @@ streamlit run main.py
 
 ---
 
-## 🌐 Language Support
+## Language Support
 
-* ✍️ Input: Text or speech in English, Hindi, Tamil, etc.
-* 🧠 Processing: Translated to English for understanding
-* 🗣 Output: Text and optional voice (TTS) in original language
+* Input: Text or speech in English, Hindi, Tamil, etc.
+* Processing: Translated to English for understanding
+* Output: Text and optional voice (TTS) in original language
 
 ---
 
-## 🧠 Roadmap & Enhancements
+## Roadmap & Enhancements
 
 * Build Neo4j Knowledge Graph for richer scheme interlinking
 * Incorporate grievance redressal features (CPGRAMS integration)
@@ -188,7 +188,7 @@ streamlit run main.py
 
 ---
 
-## 🧑‍💻 Contributors
+## Contributors
 
 * **Tanav Kolar**
 * **Shreyansh Kumar Nayak**
